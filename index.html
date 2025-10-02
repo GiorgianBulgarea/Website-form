@@ -1,185 +1,238 @@
-<div class="formbold-main-wrapper">
-    <div class="formbold-form-wrapper">
-      <img class="formbold-form-img" src="your-image-url-here.jpg" alt="Form header image">
-  
-      <form id="anamneza-form">
-        <!-- Basic Information -->
-        <div class="formbold-input-group">
-          <label for="nume" class="formbold-form-label"> Nume (familie) </label>
-          <input type="text" name="Nume" id="nume" placeholder="Introduceți numele" class="formbold-form-input"/>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="prenume" class="formbold-form-label"> Prenume </label>
-          <input type="text" name="Prenume" id="prenume" placeholder="Introduceți prenumele" class="formbold-form-input"/>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="email" class="formbold-form-label"> Email </label>
-          <input type="email" name="Email" id="email" placeholder="Introduceți adresa de email" class="formbold-form-input"/>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="telefon" class="formbold-form-label"> Telefon </label>
-          <input type="tel" name="Telefon" id="telefon" placeholder="Ex: +40 712 345 678" class="formbold-form-input"/>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="varsta" class="formbold-form-label"> Vârstă </label>
-          <input type="text" name="Vârstă" id="varsta" placeholder="Ex: 34" class="formbold-form-input"/>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="religie" class="formbold-form-label"> Religie </label>
-          <input type="text" name="Religie" id="religie" placeholder="Opțional" class="formbold-form-input"/>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="data" class="formbold-form-label"> Data </label>
-          <input type="date" name="Data" id="data" class="formbold-form-input"/>
-        </div>
-  
-        <!-- Preferences & Health -->
-        <div class="formbold-input-group">
-          <label for="preferinte" class="formbold-form-label"> Preferințe alimentare </label>
-          <textarea name="Preferințe alimentare" id="preferinte" rows="4" class="formbold-form-input"></textarea>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="alergii" class="formbold-form-label"> Alergii / Intoleranțe </label>
-          <textarea name="Alergii / Intoleranțe" id="alergii" rows="3" class="formbold-form-input"></textarea>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="afectiuni" class="formbold-form-label"> Afecțiuni / Intervenții chirurgicale </label>
-          <textarea name="Afecțiuni / Intervenții chirurgicale" id="afectiuni" rows="3" class="formbold-form-input"></textarea>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="medicamente" class="formbold-form-label"> Medicamente / Suplimente </label>
-          <textarea name="Medicamente / Suplimente" id="medicamente" rows="3" class="formbold-form-input"></textarea>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="istoric" class="formbold-form-label"> Istoric nutrițional </label>
-          <textarea name="Istoric nutrițional" id="istoric" rows="3" class="formbold-form-input"></textarea>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="feminin" class="formbold-form-label"> Pentru femei (ciclu, sarcini, menopauză) </label>
-          <textarea name="Pentru femei" id="feminin" rows="3" class="formbold-form-input"></textarea>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="program" class="formbold-form-label"> Program zilnic &amp; Loc de muncă / viață socială </label>
-          <textarea name="Program zilnic / Muncă" id="program" rows="3" class="formbold-form-input"></textarea>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="odihna" class="formbold-form-label"> Program de odihnă </label>
-          <input type="text" name="Program odihnă" id="odihna" class="formbold-form-input"/>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="activitate" class="formbold-form-label"> Activitate fizică </label>
-          <input type="text" name="Activitate fizică" id="activitate" class="formbold-form-input"/>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="alcool" class="formbold-form-label"> Consum alcool / tutun </label>
-          <input type="text" name="Alcool / Tutun" id="alcool" class="formbold-form-input"/>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="procurare" class="formbold-form-label"> Cum își procură mâncarea </label>
-          <input type="text" name="Cum își procură mâncarea" id="procurare" class="formbold-form-input"/>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="buget" class="formbold-form-label"> Buget pentru mâncare (lună) </label>
-          <input type="text" name="Buget mâncare" id="buget" class="formbold-form-input"/>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="netolerate" class="formbold-form-label"> Alimente netolerate </label>
-          <textarea name="Alimente netolerate" id="netolerate" rows="3" class="formbold-form-input"></textarea>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="preferate" class="formbold-form-label"> Alimente preferate / La ce nu poate renunța </label>
-          <textarea name="Alimente preferate" id="preferate" rows="3" class="formbold-form-input"></textarea>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="motiv" class="formbold-form-label"> Motiv vizită la nutriționist </label>
-          <textarea name="Motiv vizită" id="motiv" rows="3" class="formbold-form-input"></textarea>
-        </div>
-  
-        <div class="formbold-input-group">
-          <label for="obiective" class="formbold-form-label"> Obiective colaborare </label>
-          <textarea name="Obiective colaborare" id="obiective" rows="3" class="formbold-form-input"></textarea>
-        </div>
-  
-        <!-- Food checklist simplified -->
-        <div class="formbold-input-group">
-          <label class="formbold-form-label"> Selectați alimentele preferate </label>
-          <select name="Alimente preferate (listă)" id="alimente" multiple class="formbold-form-select">
-            <option value="Legume">Legume</option>
-            <option value="Fructe">Fructe</option>
-            <option value="Cereale">Cereale & Leguminoase</option>
-            <option value="Nuci">Semințe & Nuci</option>
-            <option value="Proteine">Proteine</option>
-            <option value="Lactate">Lactate</option>
-            <option value="Grăsimi">Grăsimi & Uleiuri</option>
-            <option value="Condimente">Condimente</option>
-            <option value="Fermentate">Alimente fermentate</option>
-            <option value="Băuturi">Băuturi</option>
-          </select>
-        </div>
-  
-        <!-- Submit -->
-        <button class="formbold-btn">Trimite Formular</button>
-      </form>
-    </div>
-  </div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <script>
-  const BOT_TOKEN = "8272127020:AAGIKrr1oxa7tOQA40_C_riqv4s3s4SlOIs";  
-  const CHAT_ID = "6780852393"; // Replace after step 1
-  const URL = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
-  
-  document.getElementById("anamneza-form").addEventListener("submit", function(e){
-    e.preventDefault();
-  
-    const formData = new FormData(this);
-    let message = "📋 *Nou formular Anamneza*%0A";
-  
-    formData.forEach((value, key) => {
-      message += `• ${key}: ${value}%0A`;
-    });
-  
-    fetch(URL, {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: `chat_id=${CHAT_ID}&text=${message}&parse_mode=Markdown`
-    })
-    .then(res => res.json())
-    .then(data => {
-      if(data.ok){
-        alert("Formular trimis pe Telegram ✅");
-        e.target.reset();
-      } else {
-        alert("Eroare la trimitere ❌");
+<style>
+    /* General Form Wrapper */
+    .formbold-main-wrapper {
+      display: flex;
+      justify-content: center;
+      padding: 40px 20px;
+      background-color: #f4f7fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .formbold-form-wrapper {
+      width: 100%;
+      max-width: 700px;
+      background-color: #fff;
+      padding: 30px 25px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    
+    .formbold-form-img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    
+    /* Input Group */
+    .formbold-input-group {
+      margin-bottom: 20px;
+    }
+    
+    .formbold-form-label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #333;
+    }
+    
+    .formbold-form-input,
+    .formbold-form-select,
+    textarea.formbold-form-input {
+      width: 100%;
+      padding: 12px 14px;
+      font-size: 15px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      transition: all 0.3s ease;
+    }
+    
+    .formbold-form-input:focus,
+    .formbold-form-select:focus,
+    textarea.formbold-form-input:focus {
+      border-color: #6c63ff;
+      outline: none;
+      box-shadow: 0 0 5px rgba(108, 99, 255, 0.3);
+    }
+    
+    /* Multiple select styling */
+    .formbold-form-select {
+      min-height: 120px;
+    }
+    
+    /* Button */
+    .formbold-btn {
+      background-color: #6c63ff;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .formbold-btn:hover {
+      background-color: #574fd6;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+      .formbold-form-wrapper {
+        padding: 20px 15px;
       }
-    });
-  });
-  </script>
-  
+    }
+    
+    @media (max-width: 480px) {
+      .formbold-btn {
+        width: 100%;
+      }
+    }
+    </style>
+    
+    <div class="formbold-main-wrapper">
+      <div class="formbold-form-wrapper">
+        <img class="formbold-form-img" src="your-image-url-here.jpg" alt="Form header image">
+    
+        <form id="anamneza-form">
+          <!-- Basic Information -->
+          <div class="formbold-input-group">
+            <label for="nume" class="formbold-form-label"> Nume (familie) </label>
+            <input type="text" name="Nume" id="nume" placeholder="Introduceți numele" class="formbold-form-input"/>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="prenume" class="formbold-form-label"> Prenume </label>
+            <input type="text" name="Prenume" id="prenume" placeholder="Introduceți prenumele" class="formbold-form-input"/>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="email" class="formbold-form-label"> Email </label>
+            <input type="email" name="Email" id="email" placeholder="Introduceți adresa de email" class="formbold-form-input"/>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="telefon" class="formbold-form-label"> Telefon </label>
+            <input type="tel" name="Telefon" id="telefon" placeholder="Ex: +40 712 345 678" class="formbold-form-input"/>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="varsta" class="formbold-form-label"> Vârstă </label>
+            <input type="text" name="Vârstă" id="varsta" placeholder="Ex: 34" class="formbold-form-input"/>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="religie" class="formbold-form-label"> Religie </label>
+            <input type="text" name="Religie" id="religie" placeholder="Opțional" class="formbold-form-input"/>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="data" class="formbold-form-label"> Data </label>
+            <input type="date" name="Data" id="data" class="formbold-form-input"/>
+          </div>
+    
+          <!-- Preferences & Health -->
+          <div class="formbold-input-group">
+            <label for="preferinte" class="formbold-form-label"> Preferințe alimentare </label>
+            <textarea name="Preferințe alimentare" id="preferinte" rows="4" class="formbold-form-input"></textarea>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="alergii" class="formbold-form-label"> Alergii / Intoleranțe </label>
+            <textarea name="Alergii / Intoleranțe" id="alergii" rows="3" class="formbold-form-input"></textarea>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="afectiuni" class="formbold-form-label"> Afecțiuni / Intervenții chirurgicale </label>
+            <textarea name="Afecțiuni / Intervenții chirurgicale" id="afectiuni" rows="3" class="formbold-form-input"></textarea>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="medicamente" class="formbold-form-label"> Medicamente / Suplimente </label>
+            <textarea name="Medicamente / Suplimente" id="medicamente" rows="3" class="formbold-form-input"></textarea>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="istoric" class="formbold-form-label"> Istoric nutrițional </label>
+            <textarea name="Istoric nutrițional" id="istoric" rows="3" class="formbold-form-input"></textarea>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="feminin" class="formbold-form-label"> Pentru femei (ciclu, sarcini, menopauză) </label>
+            <textarea name="Pentru femei" id="feminin" rows="3" class="formbold-form-input"></textarea>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="program" class="formbold-form-label"> Program zilnic &amp; Loc de muncă / viață socială </label>
+            <textarea name="Program zilnic / Muncă" id="program" rows="3" class="formbold-form-input"></textarea>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="odihna" class="formbold-form-label"> Program de odihnă </label>
+            <input type="text" name="Program odihnă" id="odihna" class="formbold-form-input"/>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="activitate" class="formbold-form-label"> Activitate fizică </label>
+            <input type="text" name="Activitate fizică" id="activitate" class="formbold-form-input"/>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="alcool" class="formbold-form-label"> Consum alcool / tutun </label>
+            <input type="text" name="Alcool / Tutun" id="alcool" class="formbold-form-input"/>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="procurare" class="formbold-form-label"> Cum își procură mâncarea </label>
+            <input type="text" name="Cum își procură mâncarea" id="procurare" class="formbold-form-input"/>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="buget" class="formbold-form-label"> Buget pentru mâncare (lună) </label>
+            <input type="text" name="Buget mâncare" id="buget" class="formbold-form-input"/>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="netolerate" class="formbold-form-label"> Alimente netolerate </label>
+            <textarea name="Alimente netolerate" id="netolerate" rows="3" class="formbold-form-input"></textarea>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="preferate" class="formbold-form-label"> Alimente preferate / La ce nu poate renunța </label>
+            <textarea name="Alimente preferate" id="preferate" rows="3" class="formbold-form-input"></textarea>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="motiv" class="formbold-form-label"> Motiv vizită la nutriționist </label>
+            <textarea name="Motiv vizită" id="motiv" rows="3" class="formbold-form-input"></textarea>
+          </div>
+    
+          <div class="formbold-input-group">
+            <label for="obiective" class="formbold-form-label"> Obiective colaborare </label>
+            <textarea name="Obiective colaborare" id="obiective" rows="3" class="formbold-form-input"></textarea>
+          </div>
+    
+          <!-- Food checklist simplified -->
+          <div class="formbold-input-group">
+            <label class="formbold-form-label"> Selectați alimentele preferate </label>
+            <select name="Alimente preferate (listă)" id="alimente" multiple class="formbold-form-select">
+              <option value="Legume">Legume</option>
+              <option value="Fructe">Fructe</option>
+              <option value="Cereale">Cereale & Leguminoase</option>
+              <option value="Nuci">Semințe & Nuci</option>
+              <option value="Proteine">Proteine</option>
+              <option value="Lactate">Lactate</option>
+              <option value="Grăsimi">Grăsimi & Uleiuri</option>
+              <option value="Condimente">Condimente</option>
+              <option value="Fermentate">Alimente fermentate</option>
+              <option value="Băuturi">Băuturi</option>
+            </select>
+          </div>
+    
+          <!-- Submit -->
+          <button class="formbold-btn">Trimite Formular</button>
+        </form>
+      </div>
+    </div>
